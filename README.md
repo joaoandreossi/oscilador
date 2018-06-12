@@ -1,4 +1,4 @@
-# Oscilador
+# Oscilador com WebAudio API
 Pequeno projeto de implementação de um oscilador utilizando a WebAudio API. 
 
 Esse projeto foi iniciado com o intuito de aprender como funciona a API, mas ao longo do desenvolvimento eu aproveitei a oportunidade para experimentar com o suporte a dispositivos touch e uma visão mobile-first, o que resultou em uma página responsiva e agradável de ser utilizada em celulares e tablets. Atualmente a página funciona em desktops, porém a interatividade só é possível através de touchscreen (ou developer options do seu navegador).
