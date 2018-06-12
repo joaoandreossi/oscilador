@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <title>Oscilador</title>
+    
+    <meta charset="utf-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="swipe" id="freq">
+            <span class="text">BASE FREQ</span><br>
+            <span class="text" id="basefreq"></span><br>
+            <span class="text"id="basewave"></span>
+        </div>
+
+        <div class="swipe" id="plfofreq">
+            <span class="text">BASE LFO</span><br>
+            <span class="text" id="plfofreqvalues"></span><br>
+            <span class="text" id="plfowave"></span>
+        </div>
+
+        <div class="swipe" id="slfofreq">
+            <span class="text">FILTER LFO</span><br>
+            <span class="text" id="filterlfofreq"></span><br>
+            <span class="text" id="filterlfowave"></span>
+        </div>
+
+        <div class="swipe" id="filter">
+            <span class="text">FILTER FREQ</span><br>
+            <span class="text" id="filterfreq"></span><br>
+            <span class="text" id="filterwave"></span>
+        </div>
+
+        <div class="swipe" id="filterq">
+            <span class="text">FILTER Q FACTOR</span><br>
+            <span class="text" id="filterqvalue"></span>
+        </div>
+    </div>
+    
+    <div id="hidden-wrapper">
+        <div class="swipe" id="basegain">
+            <span class="text">BASE GAIN</span><br>
+            <span class="text" id="basegainvalue"></span><br>
+        </div>
+
+        <div class="swipe" id="baselfogain">
+            <span class="text">BASE LFO GAIN</span><br>
+            <span class="text" id="baselfogainvalue"></span><br>
+        </div>
+
+        <div class="swipe" id="filterlfogain">
+            <span class="text">FILTER LFO GAIN</span><br>
+            <span class="text" id="filterlfogainvalue"></span><br>
+        </div>
+
+        <div class="swipe">
+            <span class="text"></span><br>
+            <span class="text"></span><br>
+        </div>
+
+        <div class="swipe">
+            <span class="text"></span><br>
+            <span class="text"></span>
+        </div>
+    </div>
+    
+    <script src="scripts/class.js" type="text/javascript"></script>
+    <script src="scripts/main.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+button {
+    width: 10vw;
+    height: 5vh;
+}
+
+.swipe {
+    flex: 1;
+    padding: 0.5vh 0 0 0.5vh;
+}
+
+.text {
+    color: white;
+    font-size: 3vh;
+    text-shadow: 1px 1px 5px black;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#hidden-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    right: 100%;
+    
+    z-index: 2;
+}
+
+#freq {
+    background-color: #517B88;
+}
+
+#plfofreq {
+    background-color: #B2C9C8;
+}
+
+#slfofreq {
+    background-color: #C6DFD9;
+}
+
+#filter {
+    background-color: #CFECE9;
+}
+
+#filterq {
+    background-color: #D1E9E2;
+}
+
+#basegain {
+    background-color: #433C3A;
+}
+
+#baselfogain {
+    background-color: #868A77;
+}
+
+#filterlfogain {
+    background-color: #C6C8A6;
+}
